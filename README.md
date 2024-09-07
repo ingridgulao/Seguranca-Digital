@@ -8,7 +8,9 @@ Já imaginou ter um amigo super inteligente que te explica tudo sobre vírus, ha
 
 **Como funciona a mágica?**
 
-É simples! Você digita sua dúvida na caixa de pesquisa e a aplicação te mostra as respostas mais relevantes, com explicações claras e links para você aprender ainda mais. Tente digitar: malware, vírus, segurança, etc.
+É simples! Você digita sua dúvida na caixa de pesquisa e a aplicação te mostra as respostas mais relevantes, com explicações claras e links para você aprender ainda mais.
+
+**Palavras chaves: Malware, Vírus, LGPD, Segurança, Cyberbullying, Informações, Senhas**
 
 **Tecnologias utilizadas:**
 
