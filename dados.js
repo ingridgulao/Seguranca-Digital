@@ -1,0 +1,46 @@
+let dados = [
+{titulo: "O que é a segurança cibernética?",
+    descricao: "A cibersegurança é a prática de proteger sistemas, redes, programas, dados e informações de ataques maliciosos. Em um mundo cada vez mais conectado, onde quase tudo é digital, a cibersegurança se tornou essencial para proteger tanto indivíduos quanto empresas. Ela abrange uma ampla gama de medidas, desde a criação de senhas fortes e a atualização de softwares até a implementação de sistemas de segurança complexos para proteger infraestruturas críticas. A cibersegurança visa garantir a confidencialidade, integridade e disponibilidade da informação, protegendo-a contra acessos não autorizados, modificações e interrupções.",
+    link: "https://www.kaspersky.com.br/resource-center/definitions/what-is-cyber-security",
+    tags: "cibersegurança cybersecurity proteção de dados redes"},
+
+    {titulo: "O que é Malware?",
+        descricao: "Malware é um termo genérico para qualquer tipo de software projetado para causar danos a um sistema de computador ou rede. Esses programas maliciosos podem assumir diversas formas, como vírus, worms, cavalos de troia, ransomware e spyware. Sua principal função é infiltrar-se em dispositivos, roubar dados confidenciais, como senhas e informações bancárias, corromper arquivos, causar instabilidade no sistema e até mesmo sequestrar seus dados, exigindo um resgate para liberá-los (ransomware). Os cibercriminosos utilizam o malware para obter vantagens financeiras, espionar usuários ou causar danos a sistemas e infraestruturas. Em resumo, o malware é uma ameaça constante no mundo digital, capaz de comprometer a segurança de seus dispositivos e dados pessoais. É fundamental adotar medidas de segurança para se proteger, como utilizar softwares antivírus, manter o sistema operacional e aplicativos atualizados, evitar clicar em links suspeitos e ser cauteloso ao abrir anexos de e-mails desconhecidos.",
+        link: "https://www.kaspersky.com.br/resource-center/preemptive-safety/what-is-malware-and-how-to-protect-against-it",
+        tags: "malware software malicioso"},
+
+    {titulo: "O que é Virus?",
+        descricao: "Um vírus é um tipo específico de malware, um programa malicioso, que tem a capacidade de se auto-replicar e infectar outros arquivos ou programas em um computador. Ao contrário de outros tipos de malware, os vírus precisam de um programa hospedeiro para se propagar. Eles podem se espalhar através de diversos meios, como e-mails com anexos infectados, downloads de arquivos de fontes não confiáveis ou dispositivos de armazenamento externos contaminados. Uma vez dentro de um sistema, os vírus podem causar diversos danos, como corromper arquivos, apagar dados, prejudicar o desempenho do computador e até mesmo criar portas de entrada para outros tipos de ataques. Em resumo, os vírus são como parasitas digitais que se aproveitam de vulnerabilidades nos sistemas para se espalhar e causar danos. É fundamental manter seu computador protegido com um bom antivírus e tomar cuidado ao abrir arquivos e clicar em links desconhecidos.",
+        link: "https://www.kaspersky.com.br/resource-center/preemptive-safety/how-to-run-a-virus-scan",
+        tags: "infecta arquivos infectados"}, 
+
+    {titulo: "O que é Engenharia Social?",
+        descricao: "Engenharia social é uma técnica de persuasão que explora a confiança e a ingenuidade das pessoas para obter informações confidenciais ou acesso a sistemas. Ao invés de explorar vulnerabilidades técnicas, os atacantes utilizam a manipulação psicológica para induzir as vítimas a cometerem erros, como revelar senhas, baixar arquivos maliciosos ou fornecer dados pessoais. Essa prática, também conhecida como 'hacking humano', pode ser realizada através de diversos canais, como e-mails, ligações telefônicas, mensagens instantâneas e até mesmo pessoalmente. Os cibercriminosos se passam por pessoas confiáveis, como funcionários de bancos, empresas ou serviços de suporte técnico, para aumentar a credibilidade de seus ataques. Em resumo, a engenharia social é uma ameaça constante no mundo digital, que explora a fraqueza humana para obter vantagens. É fundamental estar atento a essas técnicas e adotar medidas de segurança para proteger suas informações pessoais e profissionais.",
+        link: "https://www.kaspersky.com.br/resource-center/threats/how-to-avoid-social-engineering-attacks",
+        tags: "informações confidenciais manipulação "},
+
+    {titulo: "A importância de senhas fortes",
+        descricao: "Senhas fortes são a primeira linha de defesa contra acessos não autorizados às suas contas online. Em um mundo cada vez mais digital, nossas informações pessoais e financeiras estão armazenadas em diversos serviços online. Uma senha fraca ou facilmente adivinhável pode ser a porta de entrada para que cibercriminosos roubem seus dados, causem prejuízos financeiros e até mesmo comprometam sua identidade. Ao criar senhas complexas, com uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais, dificulta-se significativamente a tarefa de hackers em quebrar suas proteções. Além disso, é fundamental evitar o reuso de senhas em diferentes plataformas e utilizar um gerenciador de senhas para facilitar a criação e o armazenamento de senhas seguras.",
+        link: "https://www.kaspersky.com.br/resource-center/threats/how-to-create-a-strong-password",
+        tags: "proteção senhas fortes "},
+
+    {titulo: "Phishing: A Armadilha Digital que Você Precisa Conhecer",
+        descricao: "Phishing é um tipo de ataque cibernético que utiliza a engenharia social para enganar usuários e obter informações confidenciais. Os atacantes disparam e-mails, mensagens de texto ou direcionam as vítimas para sites falsos, se passando por empresas ou pessoas de confiança. O objetivo é induzir as pessoas a fornecer dados sensíveis, como senhas, números de cartão de crédito ou informações de login. Essas mensagens fraudulentas geralmente criam um senso de urgência ou medo, incentivando as vítimas a agir rapidamente sem analisar o conteúdo com cuidado. O phishing é uma das técnicas mais comuns utilizadas por cibercriminosos para cometer fraudes e roubar identidades.",
+        link: "https://www.kaspersky.com.br/resource-center/preemptive-safety/phishing-prevention-tips",
+        tags: "pishing ataque malicioso"},
+        
+    {titulo: "Segurança para Crianças na Era Digital: Um Guia Completo",
+        descricao: "A segurança digital das crianças é um tema cada vez mais relevante em nossa sociedade conectada. A internet, embora ofereça inúmeras oportunidades de aprendizado e entretenimento, também expõe os menores a diversos riscos, como o contato com conteúdos impróprios, a interação com estranhos, o cyberbullying e o vício em tecnologia. É fundamental que os pais e responsáveis eduquem seus filhos sobre os perigos do mundo online e adotem medidas de segurança para protegê-los. Ao estabelecer regras claras, utilizar ferramentas de controle parental e manter um diálogo aberto com as crianças, é possível criar um ambiente digital mais seguro e saudável para o desenvolvimento delas.",
+        link: "https://www.kaspersky.com.br/resource-center/preemptive-safety/kids-preemptive-safety",
+        tags: "criança seguro responsáveis pais online"},
+        
+        {titulo: "O que é a LGPD?",
+            descricao: "A Lei Geral de Proteção de Dados (LGPD) é uma legislação brasileira que visa proteger os dados pessoais de indivíduos e garantir o direito à privacidade no ambiente digital. Ela estabelece regras claras para o tratamento de dados pessoais, como coleta, armazenamento, uso e compartilhamento, por pessoas físicas ou jurídicas. A LGPD busca promover a transparência nas relações entre empresas e consumidores, além de responsabilizar as organizações por eventuais vazamentos ou usos indevidos de dados. Essa lei representa um marco importante na proteção de dados pessoais no Brasil e se alinha a práticas internacionais de segurança da informação, como o GDPR da União Europeia.",
+            link: "https://www.bndes.gov.br/wps/portal/site/home/transparencia/lgpd",
+            tags: "LGPD lei brasileira"},
+
+            {titulo: "O que é o Cyberbullying?",
+                descricao: "O cyberbullying é uma forma de agressão que ocorre no ambiente virtual, utilizando tecnologias como redes sociais, aplicativos de mensagens e jogos online. Seus praticantes utilizam a internet para intimidar, humilhar, ameaçar e difamar suas vítimas, causando danos psicológicos e emocionais profundos. O cyberbullying pode se manifestar de diversas formas, como a disseminação de rumores maldosos, a exposição de informações privadas, a criação de perfis falsos e a incitação ao ódio. Devido ao anonimato que a internet proporciona, os agressores se sentem mais à vontade para praticar seus atos, tornando o cyberbullying um problema cada vez mais grave e complexo. As consequências do cyberbullying podem ser devastadoras para as vítimas, incluindo depressão, ansiedade, baixa autoestima e, em casos extremos, o isolamento social e até mesmo o suicídio.",
+                link: "https://www.kaspersky.com.br/resource-center/preemptive-safety/top-10-ways-to-stop-cyberbullying",
+                tags: "bullying crianças"}
+];
